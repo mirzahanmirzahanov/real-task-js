@@ -29,7 +29,7 @@ const modals = () => {
 			document.body.style.overflow = ''
 			// document.body.classList.remove('modal-open')
 		})
-
+		
 		modal.addEventListener('click', (e) => {
 			if (e.target === modal && closeClickOverlay) {
 
